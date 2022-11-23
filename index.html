@@ -1,0 +1,142 @@
+    <!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <title>Document</title>
+
+    </head>
+
+    <body>
+
+    
+
+    </head>
+
+    <body>
+
+    
+
+
+
+        <h1> Branchs </h1>
+
+
+
+            <p>São ramificações do projeto, o qual permite vários desenvolvedores, trabalharem em diferentes funcionalidades, sem bugar a versão estável.
+
+            </p>
+
+            <h1>Principais branchs</h1>
+
+            <p> Branch main -> que é a branch principal, ou seja, a branch estável da aplicação. Versão que é disponibilizada aos clientes.<br>
+
+            Branch developer -> é branch utilizada pelos testers. Os quais vão testar as novas funcionalidades, correções de bugs, etc.</p>
+
+            <p>Outras branchs</p>
+
+            <p>Para cada nova funcionalidade ou correção de bugs é criada uma nova branch<br></p>
+
+        
+
+        <h1>Padrões para criar nomes de branchs</h1>
+
+        
+
+    <h1>!IMPORTANTE! Nomes de branchs não tem acento nem Ç</h1>
+
+    <p>Para correção de bugs: fix_identificacao_do_bug <br>Exemplo: fix_botao_de_login, fix_cor_do_cabecalho </p>
+
+
+
+    <h1>Para novas funcionalidades:</h1>
+
+
+
+    <p>feat_identificacao_da_novo_funcionalidade <br>Exemplo: feat_integracao_com_google, feat_nova_tela_de_contato</p>
+    <p>feat_identificacao_da_novo_funcionalidade <br>Exemplo: feat_integracao_com_google, feat_nova_tela_de_contato</p>
+
+
+
+    <h1>Para atualizar documentação: </h1> <p>doc_indentificacao_da_alteracao <br> Exemplo: doc_adicionada_nova_imagem</p>
+
+
+
+    <h1>Para criação/alteração de tarefas que não interfere no código:</h1>
+
+
+
+    <p>chore_identificacao_da_modificacao <br> Exemplo: chore_atualizado_a_versao_do_banco</p>
+
+
+
+    <h1>Criação de novas branchs</h1>
+
+
+
+    <p>git checkout -b nome_da_nova_branch<br>Exemplo: git checkout -b fix_botao_da_tela_login</p>
+
+
+
+    <p>Obs: O ideal é sempre criar as branchs a partir da main</p>
+
+
+
+    <h1>Listar as branchs existentes</h1>
+
+    <p>git branch list</p>
+
+
+
+    <h1>Trocar de branch</h1>
+
+    <p> git switch nome_da_branch_que_deseja_entrar<br>
+
+        Exemplo 01: git switch fix_botao_da_tela_login <br>
+
+        Exemplo 02: git switch main
+
+    </p>
+
+
+
+    <h1>Excluir uma branch</h1>
+
+    <p>git branch -D nome_da_branch_que_deseja_excluir <br> Exemplo: git branch -D fix_botao_da_tela_login</p>
+
+    <h1>Excluir uma branch</h1>
+    <p>git branch -D nome_da_branch_que_deseja_excluir <br> Exemplo: git branch -D fix_botao_da_tela_login</p>
+
+    <h1>alterar o nome de uma branch</h1>
+    <p>Primeiramente, precisa entrar dentro da branch e depois usar o comando para renomear.<br>
+    git branch -m novo_nome_da_branch</p>
+
+    <h1>Trazer as alterações de uma branch para a main</h1>
+    <p>Primeiro, certifique-se que está dentro da branch main. Se não estiver use: <br>
+    git switch main<br>
+    Segundo, verifique se a branch main está atualizada com o comando git pull origin main<br>
+    Trazer os dados da branch para a main.<br>
+    git merge nome_da_branch.<br> dps adicionar o git push origin main</p>
+
+
+
+    </h1>
+
+
+
+    </div>
+
+
+
+    </body>
+
+    </html>
